@@ -1,0 +1,4 @@
+nama = input("Masukkan Nama: ")
+tinggi = len(nama)
+for i in range(tinggi): 
+    print(nama[:i+1])
